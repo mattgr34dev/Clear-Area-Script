@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 games { 'gta5' }
 
-author 'Salamanca'
+author 'salamanca-dev'
 description 'Script, from clear area'
 version '0.0.1'
 
