@@ -20,4 +20,6 @@
 
 - ### Version list:
 
-    Current version '`0.0.1`'
+    Lastests version '`1.0.0`'
+    
+    version '`0.0.1`'
