@@ -18,8 +18,6 @@
 
     Edit the script for yourself, you can in confing.lua.
 
+- ### Version list:
 
-
-version: 0.0.1
-
-©salamanca'developer
+    Current version '`0.0.1`'
