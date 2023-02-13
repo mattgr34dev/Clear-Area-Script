@@ -1,15 +1,15 @@
-    local src = source
-    local player = source
-    local x, y, z = GetEntityCoords(GetPlayerPed(player), true)
-    RegisterNetEvent('ca:clarea')
-        AddEventHandler('ca:clarea', function(x, y, z, radius)
-            ClearArea(x, y, z, Config.Radius, true, Config.IgnoreCopCars, Config.IgnoreOjects, false)
-            ClearAreaOfObjects(x, y, z, Config.Radius, 1)
-    end)
+local radius = 0
 
-RegisterCommand('clarea', function (src, args, rawCommand)
+function ca:clarea(x, y, z)
+    ClearArea(x, y, z, radius, true, Config.IgnoreCopCars, Config.IgnoreOjects, false) 
+end
+
+RegisterCommand('clarea', function (src, args)
+    local x, y, z = table.unpack(GetEntityCoords(PlayerPedId(), true))
+    radius = tonumber(args[1])
+
     if source > 0 then
-        TriggerEvent('ca:clarea', x, y, z)
+        ca:clarea(x, y, z)
         TriggerClientEvent('QBCore:Notify', src, Lang:t('success.notify'), 'success')
     else
         TriggerClientEvent('QBCore:Notify', src, Lang:t('error.notify'), 'error')
