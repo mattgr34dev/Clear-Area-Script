@@ -22,7 +22,7 @@
 
     Lastests version '`1.0.2`'
     
-    version #1 '`0.0.1`' - Beta test
+    version #1 '`1.0.0`' - First release
     
     version #2 '`1.0.1`' - Fixed bags
     
