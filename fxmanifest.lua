@@ -9,13 +9,7 @@ server_script {
     'config.lua',
     'locale/en.lua',
     'locale/ru.lua',
-    'concoletext.lua'
-}
-
-client_script {
-    'server.lua',
-    'config.lua',
-    'locale/en.lua',
-    'locale/ru.lua'
+    'concoletext.lua',
+    'server.lua'
 }
 
