@@ -20,6 +20,10 @@
 
 - ### Version list:
 
-    Lastests version '`1.0.0`'
+    Lastests version '`1.0.2`'
     
-    version #1 '`0.0.1`'
+    version #1 '`0.0.1`' - Beta test
+    
+    version #2 '`1.0.1`' - Fixed bags
+    
+    version #3 '`1.0.2`' - Fixed bags
